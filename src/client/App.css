@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
-}
+  }
+  .mealName {
+    margin-top: 80px;
+    width: 100%;
+    background-color:rgb(106, 96, 96);
+    color: #fff;
+  }
+  
+  .meal-list {
+    border: 1px solid #bf7b33;
+    color: black;
+    padding: 20px;
+    box-shadow: 3px 3px 6px rgb(169, 121, 121);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    line-height: 25px;
+    background-color:rgb(244, 214, 214);
+  }
+  .text {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    background-color:rgb(106, 96, 96);
+  }
+  
