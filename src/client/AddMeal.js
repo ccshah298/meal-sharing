@@ -32,7 +32,7 @@ export function AddMeal() {
     <div className="mealName">
       <form>
         <label>Meal Name</label> <br></br>
-        <input
+        <input 
           type="text"
           value={mealName}
           onChange={(e) => setMealName(e.target.value)}
