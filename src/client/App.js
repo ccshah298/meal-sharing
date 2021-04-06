@@ -16,7 +16,7 @@ import Contact from "./Contact";
   function App() {
     return (
       <div>
-          <style>{"body { background-image: url(/src/client/assets/images/back1.jpeg); }"}</style>
+          <style>{"body { background-image: url(https://i.ibb.co/QmdyCDD/back1.jpg); }"}</style>
         <Router>
           <Navbar></Navbar>
           <Route exact path="/">
