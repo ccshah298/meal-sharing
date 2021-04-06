@@ -1,4 +1,5 @@
 import React from "react";
+const path = require('path');
 var foodmenu3 = path.basename("/src/client/assets/images/foodmenu3.png");
 
 export default function Home() {

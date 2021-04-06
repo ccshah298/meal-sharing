@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
+const path = require('path');
+var img1 = path.basename("/src/client/assets/images/img1.png")
 export default function MealDisplay() {
   const [meal, setMeal] = useState([]);
   useEffect(() => {
@@ -19,7 +21,7 @@ export default function MealDisplay() {
           <NavLink key={item.id} to={"/meal-display/" + item.id}>
             <div className="meal-list">
               {item.title} ----------{item.price}
-              dkk <img src="/src/client/assets/images/img1.png" alt="paneer" height="44" width="100"></img>
+              dkk <img src={img1} alt="paneer" height="44" width="100"></img>
             </div>
           </NavLink>
         ))}
