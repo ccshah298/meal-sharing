@@ -46,8 +46,8 @@ export function Reservation() {
             <label className="col-md-2 col-form-label">No Of Guests</label>
             <div className="col-md-10">
               <input
-                type="text"
-                value={guest}
+                type="number"
+                value={guest} required
                 onChange={(e) => setGuest(e.target.value)}
               ></input>
             </div>
@@ -57,7 +57,7 @@ export function Reservation() {
             <div className="col-md-5">
               <input
                 type="text"
-                value={name}
+                value={name} required
                 onChange={(e) => setName(e.target.value)}
               ></input>
             </div>
@@ -66,8 +66,8 @@ export function Reservation() {
             <label className="col-md-3 col-form-label">Phone_No.</label>
             <div className="col-md-5">
               <input
-                type="text"
-                value={mobile}
+                type="number"
+                value={mobile} required
                 onChange={(e) => setMobile(e.target.value)}
               ></input>
             </div>
@@ -76,8 +76,8 @@ export function Reservation() {
             <div className="col-md-10">
               <label className="col-md-3 col-form-label">Email</label>
               <input
-                type="text"
-                value={email}
+                type="email"
+                value={email} required
                 onChange={(e) => setEmail(e.target.value)}
               ></input>
             </div>

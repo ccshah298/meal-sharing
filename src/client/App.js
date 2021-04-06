@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './Home';
 import "./App.css";
 import "./index.css";
-import { AddMeal } from "./AddMeal";
+//import { AddMeal } from "./AddMeal";
 import GiveReview from "./GiveReview";
 import MealDisplay from "./MealDisplay";
 import Navbar from "./Navbar";
@@ -25,9 +25,9 @@ import Contact from "./Contact";
         <Route exact path="/home">
           <Home></Home>
         </Route>
-          <Route exact path="/add-meal">
+          {/* <Route exact path="/add-meal">
             <AddMeal></AddMeal>
-          </Route>
+          </Route>   */}
           <Route exact path="/reservation">
             <ViewReservation></ViewReservation>
           </Route>

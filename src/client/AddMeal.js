@@ -8,11 +8,11 @@ export function AddMeal() {
   const [reservation, setReservation] = useState("");
   const [date, setDate] = useState("");
   function onSubmit() {
-    async function fetchMeal() {
-      await fetch("/api/meals", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+     async function fetchMeal() {
+       await fetch("/api/meals", {
+         method: "POST",
+         headers: {
+           "Content-Type": "application/json",
         },
         body: JSON.stringify({
           title: mealName,

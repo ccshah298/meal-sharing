@@ -30,11 +30,11 @@ export default function Navbar() {
                   <span className="fa fa-info fa-lg"></span>Meal
                 </a>
               </li>
-              <li className="nav-item">
+               {/* <li className="nav-item">
                 <a className="nav-link" href="add-meal">
                   <span className="fa fa-address-card fa-lg"></span>AddMeal
                 </a>
-              </li>
+              </li>  */}
               <li className="nav-item">
                 <a className="nav-link" href="reservation">
                   <span className="fa fa-address-card fa-lg"></span>
